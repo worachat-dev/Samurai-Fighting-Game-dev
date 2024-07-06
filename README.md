@@ -66,9 +66,10 @@ Feel free to contribute to the project. Please follow these steps:
 4. Push to the branch: `git push origin feature/newFeature`.
 5. Open a pull request.
 
-## Authors
+## Author
 
-- **Worachat W, Dev.** - *Game Design & Dev. 2024*
+- **Worachat W, Dev.** - *Data Science, Engineering & Full Stack Dev. 2024* 
+[LinkedIn](https://www.linkedin.com/in/brainwaves-your-ai-playground-82155961/) | [GitHub](https://github.com/worachat-dev) | [Facebook](https://web.facebook.com/NutriCious.Thailand)
 
 ## License
 
