@@ -1,4 +1,3 @@
-```markdown
 # Samurai 2 Player Fighting Game
 
 Welcome to the Samurai 2 Player Fighting Game! This game lets two players compete as samurais in a head-to-head fighting match.
@@ -91,7 +90,6 @@ For any inquiries or issues, please contact [Your Email].
 ---
 
 Enjoy the game and have fun battling with your friends!
-```
 
 ### Additional Notes
 - Replace `[Your Name]` and `[Your Email]` with your actual name and email address.
