@@ -68,7 +68,7 @@ Feel free to contribute to the project. Please follow these steps:
 
 ## Authors
 
-- **Worachat W,Dev.** - *Game Design & Dev. 2024*
+- **Worachat W, Dev.** - *Game Design & Dev. 2024*
 
 ## License
 
