@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NK Samurai 2-player Fighting-Game</title>
+    <link rel="icon" type="image/x-icon" href="./images2/fav1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        body {
+            margin: 0;
+            background-color: #000;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .game-container {
+            position: relative;
+            width: 80%;
+            max-width: 1200px;
+        }
+
+        .status-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            border: 4px solid white;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        .health-bar {
+            position: relative;
+            width: 100%;
+            height: 30px;
+            margin: 0 10px;
+            border: 4px solid white;
+            background-color: red;
+        }
+
+        .health-fill {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            background-color: #818CF8;
+        }
+
+        #playerhealth {
+            left: 0;
+        }
+
+        #enemyhealth {
+            right: 0;
+        }
+
+        .timer {
+            width: 90px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid white;
+            background-color: black;
+        }
+
+        .result {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.7);
+            font-size: 2em;
+            display: none;
+        }
+
+        canvas {
+            width: 100%;
+            height: 600px;
+            border: 4px solid white;
+            background-color: #000;
+            display: block;
+        }
+
+        .new-game {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 15px;
+        }
+
+        .new-game input {
+            width: 200px;
+            height: 50px;
+            font-size: large;
+            border: 4px solid black;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+
+        .new-game input:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="status-bar">
+            <div class="health-bar">
+                <div id="playerhealth" class="health-fill"></div>
+            </div>
+            <div id="timer" class="timer">10</div>
+            <div class="health-bar">
+                <div id="enemyhealth" class="health-fill"></div>
+            </div>
+        </div>
+        <div id="RESULT" class="result">TIE</div>
+        <canvas></canvas>
+    </div>
+    <div class="new-game">
+        <input type="button" onclick="reloadme()" value="New Game">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="sound/sound.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
