@@ -68,7 +68,7 @@ Feel free to contribute to the project. Please follow these steps:
 
 ## Authors
 
-- **[Your Name]** - *Initial Work*
+- **Worachat W,Dev.** - *Initial Work*
 
 ## License
 
