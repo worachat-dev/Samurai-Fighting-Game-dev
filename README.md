@@ -2,6 +2,10 @@
 
 Welcome to the Samurai 2 Player Fighting Game! This game lets two players compete as samurais in a head-to-head fighting match.
 
+## Anime Trailers
+Full Page and Minimal Scene Trailers in [Full Page>>](https://www.youtube.com/watch?v=9SN5Zdcx3Kc) 
+and in [Minimal Scene>>](https://www.youtube.com/watch?v=TKhKYxRVhQY) 
+
 ## Features
 
 - **Two Player Gameplay**: Face off against a friend in a thrilling samurai battle.
